@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: blanchedalmond;
+  color: chocolate;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background:darkgrey;
+  color: purple;
+}
+
+button:hover {
+  background: indigo;
+}
+
+
+.dark-mode {
+  background-color:whitesmoke;
+  color: darkblue;
+}
+
+.dropdown {
+  margin: 15px 0;
+}
+
+.dropdown-content {
+  display: none;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.dropdown-content.show {
+  display: block;
+}
+
+#counter {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* ---------- Form ---------- */
+form {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+}
+
+.success {
+  color: green;
+  font-size: 1rem;
+}
